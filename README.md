@@ -1,2 +1,2 @@
 # Tribtute-Page-to-Dr.-Chawla-
-is created using html and CSS 
+Tribute page is created using html and CSS 
