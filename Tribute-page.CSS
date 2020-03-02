@@ -1,0 +1,143 @@
+body{
+  font-family:Arial, sans-serif;
+  font-size: 1.2rem;
+  line height: 1.5;
+  text-align: center;
+  color: #333;
+  margin:0;
+}
+
+h1{
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+@media(max-width:460px){
+  h1{
+    font-size: 3rem;
+    line-height:1.2;
+  }
+}
+
+a{
+  color: green;
+}
+
+a:visited{
+  color: blue;
+}
+
+#main{
+  margin: 10px;
+  padding: 1.5rem;
+  border-radius:5px;
+  background: #E0FFFF;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+#img-div{
+  background-color: #F8F8FF;
+  padding: 20px;
+}
+
+img{
+  max-width: 30%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border: 10px solid black;
+
+
+}
+#img-caption{
+  margin: 10px 0 10px 0;
+}
+
+@media(max-width: 460px){
+  img-caption{
+    font-size: 1.2rem;
+  }
+}
+@media(min-width:400px;){
+  img{
+
+  }
+}
+
+#headline{
+  margin: 50px auto 20px auto;
+  text-align: center;
+    font-size: 1.6rem;
+    background-color: #E9967A;
+    padding:5px;
+    display: block;
+  }
+
+ul{
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+  text-align: left;
+  font-size: 1.2rem;
+}
+li{
+  margin: 16px 0;
+}
+
+blockquote{
+  font-style: italic;
+  max-width: 500px;
+  margin: 0 auto 50px auto;
+  text-align:left;
+  background: black;
+  color:white;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+h3{
+  max-width: 800px;
+  margin: 50px auto 80px auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+h4{
+  font-size:2.5rem;
+}
+
+.container{
+  max-width: 1400px;
+  margin:0;
+}
+
+.contain{
+  padding:10px;
+  margin-bottom: 20px;
+  flex-basis: 20%;
+  border-radius: 10px;
+}
+.contain:nth-child(1){background-color:#00BFFF;}
+.contain:nth-child(2){background-color:#00BFFF;}
+.contain:nth-child(3){background-color:#00BFFF;}
+.contain:nth-child(4){background-color:#00BFFF;}
+.contain:nth-child(5){background-color:#00BFFF;}
+
+@media (min-width:900px){
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+#main-footer{
+  background-color: #808080;
+  text-align: center;
+  padding: 10px;
+  color:white;
+  font-size: 1rem;
+}
