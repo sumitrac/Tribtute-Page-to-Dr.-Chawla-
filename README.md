@@ -1,2 +1,3 @@
-# Tribute-page to Dr. Chawla
-Tech Stack: HTML/CSS
+Tribute Page 
+
+Tech Stack: Html, CSS
