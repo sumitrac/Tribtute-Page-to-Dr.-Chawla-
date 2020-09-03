@@ -1,3 +1,3 @@
-Tribute Page 
+## Tribute Page 
 
-Tech Stack: Html, CSS
+### Tech Stack: Html, CSS
